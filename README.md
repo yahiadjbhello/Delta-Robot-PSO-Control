@@ -243,39 +243,6 @@ Or open `scripts/run_simulation.m`, select your controller and trajectory at the
 | `inversegeo.slx` | — | — | Inverse geometry verification |
 
 ---
-
-## 📊 Results
-
-Performance metrics are evaluated over a **12-second circular trajectory** (R = 0.2 m, ω = 2 rad/s):
-
-| Metric | Backstepping (PSO) | PD+SMC (PSO) |
-|---|---|---|
-| Max tracking error | — | — |
-| RMS tracking error | — | — |
-| Max control torque | — | — |
-| Settling time | — | — |
-
-> ⚠️ *Fill in your results after running the simulations. Figures and plots can be saved to `docs/images/` and embedded here.*
-
----
-
-## 📖 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{yahia2026delta,
-  author       = {Yahia Djebali, Menad Abdelouaheb, Attarsia Taki Eddine},
-  title        = {Optimal Tracking Control of a 3-DOF Delta Parallel Robot
-                  Using PSO-Tuned Backstepping and Sliding Mode Controllers
-                  via Simscape Co-Simulation},
-  year         = {2026},
-  howpublished = {\url{https://github.com/yahiadjbhello/Delta-Robot-PSO-Control}},
-}
-```
-
----
-
 ## 📝 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
