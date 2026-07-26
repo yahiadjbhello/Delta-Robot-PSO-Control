@@ -1,0 +1,41 @@
+# ============================================================
+#  .gitignore — Delta Robot PSO Control
+# ============================================================
+
+# --- MATLAB autosave / backup files ---
+*.asv
+*.m~
+*.mlx~
+
+# --- Simulink cache & code-generation artifacts ---
+*.slxc
+slprj/
+codegen/
+
+# --- Simulink autosave ---
+*.slx.autosave
+*.mdl.autosave
+
+# --- MATLAB output data (large MAT files) ---
+*.mat
+out.mat
+
+# --- Simscape generated code ---
+*.c
+*.h
+*.a
+*.o
+*.so
+*.dll
+
+# --- MATLAB published output ---
+html/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE settings ---
+.vscode/
+*.code-workspace
